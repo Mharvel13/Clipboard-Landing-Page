@@ -1,0 +1,103 @@
+@media (max-width: 1200px) {
+    header {
+        background-image: url("/images/bg-header-mobile.png");
+
+        img {
+        margin: 4rem 2rem;
+    }
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            width: 80%;
+            margin: 3rem auto;
+        }
+    }
+
+    .clipboard-section {
+        p {
+            width: 100%;
+        }
+    }
+
+    .features-section {
+        text-align: center;
+        flex-direction: column;
+
+        .computer-img {
+            right: 0;
+
+            img {
+                width: 100%;
+            }
+
+            .features-text {
+                div {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .access-clipboard {
+        p {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .logos {
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .cta {
+        p {
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+
+
+@media (max-width: 850px) {
+    .iOS,
+    .Mac {
+        display: block;
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    .supercharge {
+        article {
+            display: block;
+        }
+    }
+
+
+    
+footer{
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+     .attribution {
+        text-align: center;
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+}
+

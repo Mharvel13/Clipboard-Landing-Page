@@ -1,0 +1,211 @@
+@import 'base-config';
+
+header {
+    
+    text-align: center;
+    font-family: $font-stack;
+    background-image: url("/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    img {
+        margin: 4rem 0rem 1.5rem 0rem;
+    }
+
+    h1 {
+        @extend %headings;
+        font-size: 3rem;
+    }
+
+    p {
+        @extend %paragraph;
+    }
+}
+
+.iOS {
+    @extend %button-Style;
+    background-color: $Strong-Cyan;
+    box-shadow: 5px 2px 10px 0px $Strong-Cyan;
+}
+
+.Mac {
+    @extend %button-Style;
+    background-color: $LightBlue;
+    box-shadow: 5px 2px 10px 0px $LightBlue;
+}
+
+.Mac:hover,
+.iOS:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+h3 {
+    @extend %headings;
+    font-size: 1.5rem;
+    margin-left: 0;
+}
+h2 {
+    @extend %headings;
+}
+
+main {
+    max-width: 85%;
+    margin: auto;
+}
+
+.clipboard-section {
+    margin: 5rem 0;
+    text-align: center;
+
+    p {
+        @extend %paragraph;
+    }
+}
+
+.features-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem;
+
+    .computer-img {
+        position: relative;
+        right: 9rem;
+    }
+
+    .features-text {
+        div {
+            width: 85%;
+            margin: 3rem auto;
+        }
+
+        p {
+            @extend %paragraph;
+            width: 100%;
+        }
+    }
+}
+
+.access-clipboard {
+    margin: 3rem 0;
+    text-align: center;
+
+    p {
+        @extend %paragraph;
+        padding: 1rem 0 2rem 0;
+        width: 55%;
+    }
+}
+
+.supercharge {
+    text-align: center;
+    margin: 2rem 0rem;
+    padding: 2rem 0rem;
+
+    article {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0rem;
+        padding: 2rem 0rem;
+    }
+
+    p {
+        @extend %paragraph;
+        width: 80%;
+    }
+}
+
+.logos {
+    margin: 2rem 0rem;
+    padding: 2rem 0rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta {
+    margin: 2rem 0rem;
+    padding: 2rem 0rem;
+    text-align: center;
+
+    p {
+        @extend %paragraph;
+        width: 60%;
+    }
+}
+
+footer {
+    text-align: center;
+
+    section {
+        margin: 2rem 0rem;
+        padding: 2rem 0rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: rgba(211, 211, 211, 0.3);
+
+        div {
+            width: 40%;
+        }
+
+        p {
+            @extend %paragraph;
+            color: $DarkGrayishBlue;
+            width: 100%;
+        }
+
+        p:hover {
+            color: $Strong-Cyan;
+            cursor: pointer;
+        }
+
+        .social-icons {
+            align-self: center;
+            width: 100%;
+
+            img {
+                width: 30px;
+                margin: 15px;
+            }
+
+            img:hover {
+                color: $Strong-Cyan;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .logo-footer {
+        width: 40%;
+    }
+
+    .attribution {
+        text-align: center;
+        p {
+            @extend %paragraph;
+            display: inline;
+            margin: 5px;
+        }
+    }
+
+    .attribution a {
+        color: $Attibution;
+        text-decoration: none;
+    }
+
+    .attribution a:hover {
+        color: $Strong-Cyan;
+        cursor: pointer;
+    }
+}
+
+@import 'mobile';
