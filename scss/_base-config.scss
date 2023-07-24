@@ -8,7 +8,7 @@ $Attibution: hsl(228, 45%, 44%);
 
 // Font Variables
 $font-size: 18px;
-$font-stack: Arial, Helvetica, sans-serif;
+$font-stack: "Bai Jamjuree", sans-serif;
 
 // Inherited styles
 %button-Style {
@@ -47,5 +47,5 @@ $font-stack: Arial, Helvetica, sans-serif;
 
 body {
     font-size: $font-size;
-    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: $font-stack;
 }

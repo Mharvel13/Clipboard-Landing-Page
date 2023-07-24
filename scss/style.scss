@@ -1,10 +1,10 @@
 @import 'base-config';
 
 header {
-    
+
     text-align: center;
     font-family: $font-stack;
-    background-image: url("/images/bg-header-desktop.png");
+    background-image: url('../images/bg-header-desktop.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -46,6 +46,7 @@ h3 {
     font-size: 1.5rem;
     margin-left: 0;
 }
+
 h2 {
     @extend %headings;
 }
@@ -190,6 +191,7 @@ footer {
 
     .attribution {
         text-align: center;
+
         p {
             @extend %paragraph;
             display: inline;
