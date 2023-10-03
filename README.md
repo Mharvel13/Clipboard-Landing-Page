@@ -24,14 +24,16 @@ Users should be able to:
 ### Screenshot
 
 - Desktop Solution Screenshot
+
 ![Desktop Screenshot](./images/Screenshot-Desktop.png)
 
 - Mobile Solution Screenshot
+
 ![Mobile Screenshot](./images/Screenshot-Mobile.png)
 
 ### Links
 
-- Frontend Mentor Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/)
+- Frontend Mentor Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/clipboard-landing-page-with-scss-tdmvueuwZd)
 - Live Site URL: [Live Hosted Website](https://mharvel13.github.io/Clipboard-Landing-Page/)
 - Github Solution URL: [Github Hosted Codes](https://github.com/Mharvel13/Clipboard-Landing-Page)
 
